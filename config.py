@@ -1,0 +1,33 @@
+import os
+
+# Bot token @Botfather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7366627166:AAEP8LebQbXoYXC3lUJqtLIy1RYAl9dSa2U")
+
+# Your API ID from my.telegram.org
+API_ID = int(os.environ.get("API_ID", "25649636"))
+
+# Your API Hash from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "43af470d1c625e603733268b3c2f7b8f")
+
+# String Session (still left blank as per previous setup)
+SESSION = os.environ.get("SESSION", "BQGHYeQAtgwNTu-njw2JJsuBFyLWmW57rLhD8qQg9E3u3yyqkxzr4EVy6C3f2T-wjxvbs2jkgGTdAcjj3KHXJbXldUTPq7w7SXYEshALzEQydKRLNtUAd4mFQWliI6jD64Kbxh-eHfNRiqkPhaYPdcVnY_rtOogFr7UIELfOboMIlqiG79eWxlvrD8_VYI77_bOcGrUOvgkYNPAzHx0lbtYrAgSOSq0Byqg4qm-HPEJVuxAfFZpr8yAA2Y5ZvdUQy2w4JYALAX_27QEF0L2104FU831KM3s8oOTqMP2MaamPXvlySgiIMwuoKsrM5yKDBI06KRwAaBHOnD1UQUpCKXIhhs95hgAAAAGmjQMiAA")
+
+# Your Owner / Admin Id For Broadcast 
+ADMINS = int(os.environ.get("ADMINS", "7815236348"))
+
+# Your Mongodb Database Url
+# Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get(
+    "DB_URI", 
+    "mongodb+srv://Goku_bhai001:iS5sYySFKS2xZZpc@cluster0.voj0eyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+)
+DB_NAME = os.environ.get("DB_NAME", "scrapper2")
+
+FILE_CHANNEL = int(os.environ.get("FILE_CHANNEL", "-1002329960018"))
+FILE_BOT_USERNAME = os.environ.get("FILE_BOT_USERNAME", "oxytocinlinksbot")
+
+BYPASS = bool(os.environ.get("BYPASS", False))
+BYPASS_BOT_USERNAME = os.environ.get("BYPASS_BOT_USERNAME", "FERITURLBOT")
+
+# How to watch video guide link
+HOW_TO_WATCH_LINK = os.environ.get("HOW_TO_WATCH_LINK", "https://t.me/how_bot_work/14")
