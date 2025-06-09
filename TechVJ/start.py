@@ -151,7 +151,7 @@ async def handle_download(task):
             data = links_collection.find_one({"parameter": parameter})
             base_string = await encode(f"get-{data['f_msg_id'] * abs(FILE_CHANNEL)}")
             link = f"https://t.me/{FILE_BOT_USERNAME}?start={base_string}"
-            await message.reply(f"🔗 Here is your link 🔗\n\n\u200b{link}\n\n👀 [How To Watch Video]({HOW_TO_WATCH_LINK}) 👀", disable_web_page_preview=True)
+            await message.reply(f"🔗 Here is your link 🔗\n\n\u200b{link}\n\n👀 How To Watch Video 👀\n{HOW_TO_WATCH_LINK}", disable_web_page_preview=True)
             if links_collection.find_one({"parameter": parameter}):
                 links_collection.delete_one({"parameter": parameter})
         else:
@@ -160,7 +160,7 @@ async def handle_download(task):
                 return await message.reply("❌ No files found. Please check the link and try again.")
             base_string = await encode(f"get-{data['f_msg_id'] * abs(FILE_CHANNEL)}-{data['l_msg_id'] * abs(FILE_CHANNEL)}")
             link = f"https://t.me/{FILE_BOT_USERNAME}?start={base_string}"
-            await message.reply(f"🔗 Here is your link 🔗\n\n\u200b{link}\n\n👀 [How To Watch Video]({HOW_TO_WATCH_LINK}) 👀", disable_web_page_preview=True)
+            await message.reply(f"🔗 Here is your link 🔗\n\n\u200b{link}\n\n👀 How To Watch Video 👀\n{HOW_TO_WATCH_LINK}", disable_web_page_preview=True)
             if links_collection.find_one({"parameter": parameter}):
                 links_collection.delete_one({"parameter": parameter})
             
