@@ -30,4 +30,4 @@ BYPASS = bool(os.environ.get("BYPASS", False))
 BYPASS_BOT_USERNAME = os.environ.get("BYPASS_BOT_USERNAME", "FERITURLBOT")
 
 # How to watch video guide link
-HOW_TO_WATCH_LINK = os.environ.get("HOW_TO_WATCH_LINK", "https://t.me/how_bot_work/14")
+HOW_TO_WATCH_LINK = os.environ.get("HOW_TO_WATCH_LINK", "https://t.me/how_bot_work/7")
