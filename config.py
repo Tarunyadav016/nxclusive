@@ -23,8 +23,8 @@ DB_URI = os.environ.get(
 )
 DB_NAME = os.environ.get("DB_NAME", "scrapper2")
 
-FILE_CHANNEL = int(os.environ.get("FILE_CHANNEL", "-1002329960018"))
-FILE_BOT_USERNAME = os.environ.get("FILE_BOT_USERNAME", "oxytocinlinksbot")
+FILE_CHANNEL = int(os.environ.get("FILE_CHANNEL", "-1002449127698"))
+FILE_BOT_USERNAME = os.environ.get("FILE_BOT_USERNAME", "Xclusivehub_bot")
 
 BYPASS = bool(os.environ.get("BYPASS", False))
 BYPASS_BOT_USERNAME = os.environ.get("BYPASS_BOT_USERNAME", "FERITURLBOT")
