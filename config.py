@@ -1,7 +1,7 @@
 import os
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8001511132:AAFnHdzYwmjswrmxLgfT8K08dgztilmNUx0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8001511132:AAE23bbGeLNPOL2kLABbCJrJ0dih4wM1qDM")
 
 # Your API ID from my.telegram.org
 API_ID = int(os.environ.get("API_ID", "25649636"))
@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "25649636"))
 API_HASH = os.environ.get("API_HASH", "43af470d1c625e603733268b3c2f7b8f")
 
 # String Session (still left blank as per previous setup)
-SESSION = os.environ.get("SESSION", "BQFziNcAbMsqpI10Yw2wcBVejCsyneKywuojfuywbIIH6x1apu8DUokswbzCTqU5NEixIO15pe2hotyrvrA_PD7w9S38WTp8aFRG1yepGNjmDRakjF8pXFXl-oZvoOrF_AIr5PAnFEBymu30y881kSYA-H-IN2TXXDC_RsIRXWTVgvLr8IMusEW98_Af0epC9yf1uIH_Q0VQWesdbhyajBFYENh4qJu0gInSdvp6HUguerjcARMpD6GLNwJdM7KFfItVwhD0HuF8SBJM_Gif78xkxarkIs8ayog9Mnp5-OJVa-plzlW4FrbuJrM4nay7c99MYsxJrUBBvlyVi4IPaU_DBC_enQAAAAGmjQMiAA")
+SESSION = os.environ.get("SESSION", "BQFziNcAgyeaP3wrd-tgMN_DsRL8Gd08dYoH9_IEkn-eFctJpM6nvFEDq52jbB1HM6Cj7NCGtPuxEQT5oKxQKM-DwRCxFHw_ehk3-7HrAbT4SQmFm3i-1sqjiT2trxz23IySldyBVF5yIO7k1APc9pjXXHqB5fAnH6f3eZ3DbBMJjYMgq-uo8E8SsaXNLNph57uFl0_CLPdKyY8Xu6uzVB__aoCKJpwuPUo0U7yGy1QMm_utkE1CwyKjQ6RKxAJIGVicYdYtmK6Qt1dLq0e25rVfsxcU9YkAF2CV2glxuaSXXQUFVICig8VK2D0P9ik-PNB-tKm3uclzDGCqwgcEr3ywOiDbgQAAAAHR0wr8AA")
 
 # Your Owner / Admin Id For Broadcast 
 ADMINS = int(os.environ.get("ADMINS", "7815236348"))
@@ -31,4 +31,5 @@ BYPASS_BOT_USERNAME = os.environ.get("BYPASS_BOT_USERNAME", "Nick_Bypass_Bot")
 
 # How to watch video guide link
 HOW_TO_WATCH_LINK = os.environ.get("HOW_TO_WATCH_LINK", "https://t.me/how_bot_work/7")
+
 
